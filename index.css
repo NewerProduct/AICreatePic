@@ -1,0 +1,382 @@
+
+ .midcontainer {
+  display: flex;
+  justify-content: space-between;
+  height: 575px;
+ 
+ 
+}
+.header {
+  position:relative;
+  height: 100px;
+}
+.nav {
+  position: absolute;
+  top:73px;
+  left:0px;
+  height: 45px;
+  width: 685px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, .05);
+  border-radius: 20px;
+  
+}
+.footer {
+  height: 289px;
+  width: 79.5%;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, .05);
+  color: white;
+  box-sizing: border-box;
+  margin-top: 3px;
+}
+.btn{
+  border-radius: 20px;
+  width: 130px;
+  height: 45px;
+}
+.cover {
+  
+  background-color:rgba(255, 255, 255, 0.349);
+  transition: all 1s;
+}
+.outer {
+  position: absolute;
+  width: 100%;
+  height: 108%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  margin: 0 auto;
+  padding: 1rem;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, rgb(8, 13, 27), rgb(7, 18, 38), rgb(29, 38, 57), rgb(61, 61, 38));
+}
+/* 调整表单样式 */
+
+.container-left {
+  position: relative;
+  width: 80%;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.formItem .el-form-item__label-wrap {
+  margin-left: 52px !important;
+}
+.el-select {
+  width: 270px; 
+  margin: 0 auto; 
+  background-color: rgba(255, 255, 255, .05);
+}
+.el-form-item__label {
+  color: white;
+}
+.container-right {
+  position: absolute;
+  height: 845px;
+  width: 20%;
+  color: white;
+  background-color: rgba(255, 255, 255, .05);
+  border-radius: 20px;
+  left: 80%;
+  top: 3%;
+  margin-left: 2px;
+  overflow-x: hidden;
+}
+.tipWord {
+  left: 50px;
+  width: 270px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, .05);
+  margin: 0 auto;
+  overflow:scroll;
+  border-radius: 20px;
+  padding: 10px;
+  overflow: scroll;
+}
+.el-input__wrapper .el-input__inner {
+  background-color: transparent;
+}
+.tipInput {
+  position: absolute;
+  top: 155px;
+  width: 270px;
+
+}
+.htmlBody {
+  position: relative;
+  height: 800px;
+}
+
+.left {
+  position: absolute;
+  height: 550px;
+  width: 49.5%;
+  top: 4%;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, .05);
+  color: white;
+  box-sizing: border-box;
+  line-height: 550px;
+}
+
+.right {
+  position: absolute;
+  height: 550px;
+  width: 49.5%;
+  left: 50%;
+  top: 4%;
+  background-color: rgba(255, 255, 255, .05);
+  color: white;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.tapContent {
+  position: relative;
+}
+.tipInput .el-input__wrapper {
+  background-color: rgba(255, 255, 255, .05); /* 调整最后一个值(0.5)来设置所需的透明度 */
+  /* backdrop-filter: blur(5px); 可选: 为背景添加模糊效果 */
+  border-radius: 15px;
+}
+
+.tipInput .el-input__inner {
+  background-color: transparent;
+  color: rgb(255, 255, 255); /* 完全不透明的文字 */
+}
+.tabStyle {
+     text-align:center;
+     display:inline-block;
+     background-color:rgba(255, 255, 255, .03);
+     border-radius:20px;
+     width:100px;
+     height:30px;
+     margin-left:5px;
+}
+.el-form-item__content .el-form-item__error {
+  position: absolute;
+  top: 120%;
+  left:25%;
+}
+
+.el-dropdown-link{
+  color: white;
+  text-align: center;
+}
+.partOne{
+  background-color: rgba(255, 255, 255, .05);
+  border-radius: 20px;
+  margin-left: 2px;
+}
+.partTwo {
+  width: 100%;
+  background-color: rgba(255, 255, 255, .05);
+  margin-left: 2px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.partTwo .el-menu.el-menu--vertical {
+  background-color: rgba(255, 255, 255, .05);
+  border-radius: 20px;
+  text-align: center;
+
+}
+.partThree{
+  width: 100%;
+  background-color: rgba(255, 255, 255, .05);
+  margin-left: 2px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 5px;
+}
+.el-sub-menu__title {
+  background-color: transparent !important; /* 确保背景透明 */
+  border-radius: 20px;
+  color: white;
+}
+
+.el-sub-menu:hover {
+  background-color: none  /* 禁用 hover 背景色变化 */
+}
+
+.el-menu-item .el-menu-item__title {
+  color: white; /* 保持文本白色 */
+}
+.el-menu.el-menu--inline {
+  background-color: rgba(255, 255, 255, .05);
+}
+.el-menu {
+  border:none;
+  background-color: rgba(255, 255, 255, .05);
+}
+
+.el-menu .el-menu-item {
+  color:white;
+}
+.el-menu.el-menu--inline .el-menu-item:hover {
+  background-color: transparent ;
+}
+.slider-demo-block {
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+}
+.slider-demo-block .el-slider {
+  margin-top: 0;
+  margin-left: 12px;
+}
+.el-form-item__content {
+  position: relative;
+}
+.el-form-item__content .el-slider__runway.show-input {
+position: absolute;
+left:-100px;
+top: 40px;
+width: 300px;
+margin-bottom: 20px;
+}
+.el-menu.el-menu--inline {
+  overflow: scroll;
+  position: relative;
+}
+.rTip {
+  position: absolute;
+  top: 300px;
+  left: 0px;
+}
+.rTip .el-form-item.asterisk-left.el-form-item--label-right{
+  display: block;
+}
+.rTip .el-form-item__label{
+  margin-left: -190px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap; /* 允许换行 */
+}
+
+.add-tag-container {
+  flex: 0 0 auto; /* 防止添加按钮占用过多空间 */
+  margin-top: 5px; /* 增加顶部间距 */
+}
+.tagButton {
+  height: 24px;
+  border: none;
+  background-color: #e5f2ff;
+}
+.tipStrength {
+  position: relative;
+}
+.tipStrength div {
+  position: absolute;
+  top: -24px;
+  left: -32px;
+  width: 28px;
+  height: 28px;
+  border: 2px green solid;
+  border-radius: 50%;
+  background-color: lightblue;
+  color: black;
+  font-size: 12px;
+  line-height: 23px;
+}
+.flex.gap-2 .el-button.el-button--small.button-new-tag {
+  background-color: rgba(255, 255, 255, .05);
+  border: none;
+}
+.flex.gap-2 .el-button.el-button--small.button-new-tag span {
+  color: white;
+}
+.flex.gap-2 .el-input.el-input--small.w-20{
+  width: 50px;
+}
+
+.el-input .el-input__wrapper {
+  background-color: rgba(255, 255, 255, 0.082);
+  border: none;
+
+}
+.el-input .el-input__inner {
+  background-color: rgba(255, 255, 255, .05);
+  color: white;
+}
+.upload-demo {
+  position: relative;
+}
+.el-upload-dragger {
+  width: 100%;
+  height: 550px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, .05);
+}
+.el-upload-dragger .el-upload__text{
+  position: absolute;
+  top: 13%;
+  left: 33%;
+}
+
+.upload-demo .el-upload__tip{
+  position: absolute;
+  top: 20%;
+  left: 32%;
+}
+.left img {
+  position: absolute;
+    top: 10%;
+    left: 7%;
+    border-radius: 20px;
+}
+.el-dialog__header.show-close {
+
+  height: 316px;
+  width: 477px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+
+}
+.right span {
+  line-height: 30px;
+}
+.someTip{
+  margin-top: 150px;
+}
+.list {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.list img {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.list:hover img {
+  transform: scale(1.2);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.bottom{
+  text-align: center;
+  height: 40px;
+  width: 200px;
+  position: absolute;
+  top: 160px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.527);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  backdrop-filter: blur(3px);
+}
+.bottom span{
+  line-height: 40px;
+}
